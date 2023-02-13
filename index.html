@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: Futura,Trebuchet MS,Arial,sans-serif;
+            src: url("Lesson02/fonts/FUTUR__1.TTF") format("truetype");
+        }
+        body {
+            margin: 0 15%;
+            font-family: Futura;
+        }
+        header img {
+            margin-left: 8%;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            margin-right: 100px;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+        li:hover {
+            color: orangered;
+        }
+        .album-container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-column-gap: 20px;
+            grid-row-gap: 40px;
+            justify-content: center;
+        }
+        .album img {
+            border: 3px solid dodgerblue;
+            padding: 10px 5px;
+            border-radius: 10px;
+            box-shadow: 3px 7px;
+            height: 130px;
+            width: 180px;
+        }
+        .album p {
+            text-align: center;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+        footer p {
+            text-align: center;
+        }
+        hr {
+            border-top: 1px solid dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Poly%20Ph%20tos.png" alt="">
+    </header>
+    <hr>
+    <ul>
+        <li>Trang chủ</li>
+        <li>Ảnh sự kiện</li>
+        <li>Ảnh sinh việc</li>
+        <li>Thông báo</li>
+        <li>Liên hệ</li>
+    </ul>
+    <hr>
+    <h1 style="margin-left: 8%; color: dodgerblue">Danh sách album</h1>
+    <div class="album-container">
+        <div class="album">
+            <img src="images/Layer%205.png" alt="">
+            <p>Sự kiện</p>
+        </div>
+        <div class="album">
+            <img src="images/Layer%206.png" alt="">
+            <p>Album K06</p>
+        </div>
+        <div class="album">
+            <img src="images/Layer%207.png" alt="">
+            <p>Album K07</p>
+        </div>
+        <div class="album">
+            <img src="images/Layer%208.png" alt="">
+            <p>iPoly</p>
+        </div>
+        <div class="album">
+            <img src="images/Layer%209.png" alt="">
+            <p>Ngày hội việc làm</p>
+        </div>
+        <div class="album">
+            <img src="images/Layer%2010.png" alt="">
+            <p>Học tập</p>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>Đây là trang web phục vụ việc thực hành của sinh viên FPT Polytechnic</p>
+        <p>Nghiêm cấm sử dụng với mục đích thương mại</p>
+    </footer>
+</body>
+</html>
